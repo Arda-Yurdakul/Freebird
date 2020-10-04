@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Column
+  - Pipe
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackgroundLayer
+    uniqueID: 2052095461
+    locked: 0
+  - name: MidgroundLayer
+    uniqueID: 918392941
+    locked: 0
+  - name: Bird
+    uniqueID: 4260372379
+    locked: 0
+  - name: ForegroundLayer
+    uniqueID: 3555289731
+    locked: 0
+  - name: CanvasLayer
+    uniqueID: 1955249345
+    locked: 0
+  - name: EffectLayer
+    uniqueID: 2906962463
+    locked: 0

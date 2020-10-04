@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6402195549212497315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6402195549212497313}
+  - component: {fileID: 6402195549212497312}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6402195549212497313
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6402195549212497315}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.19960263, y: -0.08001738, z: 232.54997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6402195549212497312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6402195549212497315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a881f8820610925498df721a0756a988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: 35b6ba6ae31bcea4eab03496501a7fd2, type: 3}
+    source: {fileID: 0}
+    name: die
+    volume: 1
+    pitch: 1
+  - clip: {fileID: 8300000, guid: 490c76d9ab418334bbb747feb2e1996d, type: 3}
+    source: {fileID: 0}
+    name: hit
+    volume: 1
+    pitch: 1
+  - clip: {fileID: 8300000, guid: 98a6fe4bc0b50ad4882df66c874700d4, type: 3}
+    source: {fileID: 0}
+    name: point
+    volume: 1
+    pitch: 1
+  - clip: {fileID: 8300000, guid: ce73dbddbd7d362498b45deb36498efd, type: 3}
+    source: {fileID: 0}
+    name: transition
+    volume: 1
+    pitch: 1
+  - clip: {fileID: 8300000, guid: b912ebd5c821f35448234ab5d5a688f9, type: 3}
+    source: {fileID: 0}
+    name: flap
+    volume: 1
+    pitch: 1
